@@ -26,3 +26,5 @@ Support:
   Variadic arguments
   Pretty syntax
   Metaprogramming
+
+Match expressions: comparison against a series of patterns

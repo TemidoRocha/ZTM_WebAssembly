@@ -3,9 +3,17 @@ fn add(num_one: i32, num_two: i32) -> i32 {
 }
 
 fn main() {
-    let foo = add(10, 5);
-    // the difference between macro and function is the !
-    println!("{} {}", foo, true);
-    println!("{0} {0}", foo);
-    println!("{:?}", foo); // this place holder is used for complex values
+    let total = add(10, 50);
+
+    if total > 50 {
+      println!("You qualify for free shipping!");
+    }
+    else if total > 20 {
+      println!("If you add more items, you can qualify for free shipping")
+    }
+    else{
+      println!("No free shipping")
+    }
+    
+    println!("{:?}", total);
 }
