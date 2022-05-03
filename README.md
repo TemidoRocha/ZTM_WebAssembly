@@ -12,5 +12,5 @@ cargo - a tool for managing Rust packages and projects
 
 Commands
 
-cargo run => buil
-cargo run -q => status are removed from the console
+cargo run : build
+cargo run -q : status are removed from the console
