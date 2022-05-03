@@ -18,10 +18,10 @@ fn main() {
     }
 
     // with match we need to write all the possoble solutions
-    match free_shipping {
-      true => total = total + 0,
-      false => total = total + 5
-    }
+    total = match free_shipping {
+      true => total + 0,
+      false => total + 5
+    };
     
     println!("{:?}", total);
 }
