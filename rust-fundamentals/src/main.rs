@@ -22,6 +22,19 @@ fn main() {
       true => total + 0,
       false => total + 5
     };
+
+    match total {
+      1 => println!("1"),
+      2 => println!("2"),
+      _ => println!("No match found") // the undescore is a falback pattern
+    };
     
     println!("{:?}", total);
+
+    // the values in the arrray need to be of the same type
+    // arrays can be anotated
+    let items:[i32;5] = [1,2,3,4,5];
+    println!("{:?}", items)
+
+    
 }
