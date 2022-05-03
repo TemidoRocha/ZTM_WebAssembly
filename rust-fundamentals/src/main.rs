@@ -32,9 +32,22 @@ fn main() {
     println!("{:?}", total);
 
     // the values in the arrray need to be of the same type
-    // arrays can be anotated
+    // are fixed size
+    // arrays can be anotated and are great for small collections of fixed size
     let items:[i32;5] = [1,2,3,4,5];
-    println!("{:?}", items)
+    println!("{:?}", items);
 
-    
+    // vectors are dynamically-sized
+    let vector_items = vec![1,2,3,4,5];
+    let mut vector_items_2 = Vec::new();
+    vector_items_2.push(1);
+    vector_items_2.push(2);
+    vector_items_2.push(3);
+    vector_items_2.push(4);
+    vector_items_2.push(5);
+
+    // we need to use the debug :? keyword since we need to format the string from vector to string
+    println!("{:?}", vector_items);
+    println!("{:?}", vector_items_2);
+
 }
