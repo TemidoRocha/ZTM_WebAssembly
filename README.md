@@ -53,3 +53,7 @@ $ cargo init
 ### Library Projects
 Dependency for other programs.
 $ cargo init --lib
+
+### Bundling Code
+It will need the entry point.
+Output for the bundle.
