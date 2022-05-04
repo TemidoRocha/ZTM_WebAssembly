@@ -18,7 +18,7 @@ async function init() {
     // we use the replace to remove the metadata
     let base64 = fileReader.result.replace(/^data:image\/(png|jpeg|jpg);base64,/, '');
     let img_data_url = rustApp.grayscale(base64);
-    document.getElementById('new_img').setAttribute(
+    document.getElementById('new-img').setAttribute(
       'src', img_data_url
     )
   };
