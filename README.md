@@ -57,3 +57,11 @@ $ cargo init --lib
 ### Bundling Code
 It will need the entry point.
 Output for the bundle.
+
+### Why fileReader
+
+Instead of transfering binary data we transfer a string since it is easier for transfer.
+Also easier to transfer files between languages.
+
+### Compile the Rust to web-assembly in order to use in the browser
+@wasm-tool/wasm-pack-plugin
