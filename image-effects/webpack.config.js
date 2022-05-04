@@ -13,7 +13,7 @@ module.exports = {
       template: './public/index.html'
     }),
     new WasmPackPlugin({
-      crateDirectory: path.resolve(__dirname, './') // the path for this property needs to be full system path
+      crateDirectory: path.resolve(__dirname, '.') // the path for this property needs to be full system path
     })
   ],
   experiments: {
