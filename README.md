@@ -41,3 +41,13 @@ So, when a variable is not needed it will be dropped.
 
 By dfalut it can transfer ownership accross functions.
 Or we can borrow the value using the & symbol
+
+### Result type
+Valid value or an error.
+The purpose of the result type is to handle actions that can produce an error
+
+### Binary Projects
+Executable program. Cargo generates binary projects
+
+### Library Projects
+Dependency for other programs.
