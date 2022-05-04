@@ -48,6 +48,8 @@ The purpose of the result type is to handle actions that can produce an error
 
 ### Binary Projects
 Executable program. Cargo generates binary projects
+$ cargo init
 
 ### Library Projects
 Dependency for other programs.
+$ cargo init --lib
