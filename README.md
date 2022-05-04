@@ -65,3 +65,24 @@ Also easier to transfer files between languages.
 
 ### Compile the Rust to web-assembly in order to use in the browser
 @wasm-tool/wasm-pack-plugin
+
+### load_from_memory => Dynamic image
+Object with methods for interacting with the image.
+
+### Buffers
+Buffers are a feature for temporarily storing data.
+
+
+#### Review of the process
+#####JS
+1. File
+2. Base64
+#####Rust
+3. Base64
+4. Binary
+5. DynamicImage
+6. Binary
+7. Base64
+#####JS
+8. Base64 (STR)
+
